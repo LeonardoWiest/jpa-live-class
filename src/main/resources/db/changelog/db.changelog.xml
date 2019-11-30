@@ -5,4 +5,15 @@
 
 	<include file="db.changelog-types.xml" relativeToChangelogFile="true" />
 
+	<changeSet id="20191130_123130" author="Leonardo Wiest">
+		<createTable tableName="tb_cliente">
+			<column name="id_cliente" type="${numeric.18x0}">
+				<constraints nullable="false" />
+			</column>
+			<column name="tx_nome" type="${varchar.100}">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+
 </databaseChangeLog>

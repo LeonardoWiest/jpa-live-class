@@ -5,7 +5,7 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
 	<property name="numeric.18x0" value="numeric(18,0)" dbms="postgresql" />
-	<property name="varchar.30" value="varchar(30)" dbms="postgresql" />
+	<property name="varchar.100" value="varchar(100)" dbms="postgresql" />
 
 	<changeSet logicalFilePath="db/changelog/db.changelog-types.xml" author="Leonardo Wiest" id="20191130_121810" />
 
